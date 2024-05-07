@@ -684,9 +684,9 @@ function ResetRotaterandResizerAvaliable(RotaterOrResizerAvaliable,classType,obj
 
 
 
-// export { 
-//    initTargetContainerMoveRoateResize, 
-//    ScaledTargetContainerWithParentLabel,
-//    GetMoveResizeRotateParameters,
-//    SetMoveResizeRotateParameters,
-// }
+export { 
+   initTargetContainerMoveRoateResize, 
+   ScaledTargetContainerWithParentLabel,
+   GetMoveResizeRotateParameters,
+   SetMoveResizeRotateParameters,
+}

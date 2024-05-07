@@ -1,5 +1,5 @@
 # mover-resizer-rotater
-this is a simple project that wroten with pure javascript and css code, which help you can operate the html element Box with the function of move, resize,rotate and scale as the same time.
+this is a simple project that coded with pure javascript and css, which help you can operate the html element Box with the functions of move, resize,rotate and scale as the same time. it supports pure html and all kinds of popular frontend frameworks, like `Vue/React/NextJS/Anglar` and so on.
 you can try it online, just clicked here: <a href="https://bertramye.github.io/mover-resizer-rotater">mover-resizer-rotater</a>  
 
 <a href="https://bertramye.github.io/mover-resizer-rotater">
