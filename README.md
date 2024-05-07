@@ -104,7 +104,7 @@ import { GetMoveResizeRotateParameters,SetMoveResizeRotateParameters, ScaledTarg
 ```
 
 3) addition for the `TypeScript` projects
-> if you projects use the `TypeScript` , to use current lib , please create a new declare files name `mover-resizer-rotater.d.ts`, and put it in your projects' root path and then inpput the code here below, otherwise , there will be an error occured when building.
+> if your projects use the `TypeScript` , to use current lib, please create a new declare files named `mover-resizer-rotater.d.ts`, and put it in your projects' root path and then inpput the codes here below, otherwise , there will be an error occured when building.
 ```jsx
 // mover-resizer-rotater.d.ts
 // decalre for supporting the `TypeScript`
