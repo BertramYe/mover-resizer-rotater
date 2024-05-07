@@ -103,10 +103,18 @@ import { GetMoveResizeRotateParameters,SetMoveResizeRotateParameters, ScaledTarg
 
 ```
 
-
-
-
-
+3) addition for the `TypeScript` projects
+> if you projects use the `TypeScript` , to use current lib , please create a new declare files name `mover-resizer-rotater.d.ts`, and put it in your projects' root path and then inpput the code here below, otherwise , there will be an error occured when building.
+```jsx
+// mover-resizer-rotater.d.ts
+// decalre for supporting the `TypeScript`
+declare module 'mover-resizer-rotater' {
+    export function initTargetContainerMoveRoateResize(elementID:string,params: object): HTMLElement;
+    export function ScaledTargetContainerWithParentLabel(element:HTMLElement | null,scaledPercent: number): void;
+    export function SetMoveResizeRotateParameters(element:HTMLElement | null,params: object): void;
+    export function GetMoveResizeRotateParameters(elementID:HTMLElement | null): object;
+}
+```
 
 # 2. Available APIs
 ## A. <span id='initTargetContainerMoveRoateResize'>  initTargetContainerMoveRoateResize </span>
